@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "start:cli": "ts-node scripts/cli.ts"
+    "start:cli": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/cli.ts"
   },
 
   "dependencies": {
